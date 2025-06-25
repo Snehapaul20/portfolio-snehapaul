@@ -1,0 +1,332 @@
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color:#2D3532;
+}
+h1{
+    color:#73877B;
+    font-size: 48px;
+}
+h3{
+    color: #839788;
+    font-size: medium;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    padding-right: 10px;
+}
+nav li{
+    float: left;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: #73877B;
+}
+nav a:active{
+    color: #73877B;
+}
+.homepage{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.background{
+    display: flex;
+    background-color: #BDBBB6;
+    width: 40vw;
+    height: 115vh;
+    position: absolute;
+}
+.main-section{
+    display: flex;
+    position: relative;
+    height: fit-content;
+    top: 20%;
+    left: 30vw;
+}
+.main-section img{
+    height: 400px;
+    width: 400px;
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.2);
+    border-radius: 5px;
+}
+.main-section img:hover{
+    transition: ease-in-out;
+    transform: translateY(-5px) translateX(5px);
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.5);
+}
+.home-content{
+    padding-left: 50px;
+    padding-top: 12%;
+    width: 40vw;
+}
+.home-content p{
+    margin-top: 10px;
+}
+button{
+    background-color: #F9FAFB;
+    border-color: #2D3532;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+}
+.about-container{
+    display: flex;
+    gap: 50px;
+    justify-content: baseline;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 3%;
+}
+#About{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40vh 60vh;
+}
+.about-container{
+    grid-column: span 2;
+    z-index: 1;
+}
+.about-container img{
+    margin-top: 50px;
+}
+.about-card{
+    background-color: #F9FAFB;
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.2);
+    margin: 2%;
+    padding: 3%;
+    width: 50%;
+    border-radius: 20px;
+}
+.about-card:hover{
+    transition: ease-in-out;
+    transform: translateY(-5px) translateX(5px);
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.5);
+}
+.about-card p{
+    margin-top: 5px;
+}
+.lower-background{
+    margin-top: 20%;
+    background-color: #BDBBB6;
+    width: 100vw;
+    height: 35vh;
+}
+#Education{
+    background-color: #BDBBB6;
+    height: 100vh;
+}
+.ed-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+#Education h1{
+    padding: 50px;
+    text-align: center;
+}
+.ed-card{
+    height: 60vh;
+    width: 800px;
+    background-color: #F9FAFB;
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+.ed-card:hover{
+    transition: ease-in-out;
+    transform: translateY(-5px) translateX(5px);
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.5);
+}
+.ed-card h3, h6{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+.ed-card ul{
+    font-size: 17px;
+    margin: 40px;
+}
+
+#Skills{
+    height: 100vh;
+}
+.skills-background{
+    background-color: #BDBBB6;
+    height: 70vh;
+    width: 100vw;
+    
+}
+.Skills{
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skills-card{
+    height: 65%;
+    width: 40%;
+    background-color: #F9FAFB;
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.skills-card:hover{
+    transition: ease-in-out;
+    transform: translateY(-5px) translateX(5px);
+    box-shadow: -10px 10px 7px rgb(0,0,0,0.5);
+}
+.skills-card h3{
+    text-align: center;
+    font-size: 24px;
+    padding: 2%;
+}
+.skills-card img{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.progress-bar{
+    height: 30px;
+    width: 410px;
+    background-color: #D9D9D9;
+}
+.green-80{
+    width: 80%;
+    height: 30px;
+    background-color: #04AA6D;
+    line-height: 30px;
+    padding-left: 10px;
+    color: white;
+}
+.green-40{
+    width: 40%;
+    height: 30px;
+    background-color: #04AA6D;
+    line-height: 30px;
+    padding-left: 10px;
+    color: white;
+}
+#Skills h1{
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px;
+    font-size: 56px;
+}#Contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+.contact-background {
+  background-color: #BDBBB6;
+  height: 500px;
+  width: 50vw;
+  position: absolute;
+}
+.contact-card {
+  width: 50%;
+  height: auto;
+  background-color: #F9FAFB;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+  left: 30%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.contact-card:hover {
+  transition: ease-in-out;
+  transform: translateY(-5px) translateX(5px);
+  box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.5);
+}
+.contact-card h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-card .intro {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0 30px;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-info li {
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.social-media img {
+  height: 40px;
+  width: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}
